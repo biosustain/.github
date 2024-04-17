@@ -1,0 +1,13 @@
+name: Code quality
+# Workflow to check if project meets the code quality standards of the Biosustain group
+
+on:
+  push:
+    branches: [ $default-branch ]
+  pull_request:
+
+jobs:
+  code-quality-check:
+    name: Code quality check
+    uses: biosustain/code-quality-check/.github/workflows/code-quality-check.yml@v1.0.4
+
