@@ -9,5 +9,5 @@ on:
 jobs:
   code-quality-check:
     name: Code quality check
-    uses: biosustain/code-quality-check/.github/workflows/code-quality-check.yml@latest
+    uses: biosustain/code-quality-check/.github/workflows/code-quality-check.yml@v1
 
