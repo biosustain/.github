@@ -1,5 +1,5 @@
 name: Code quality
-description: Workflow to check if project meets the code quality standards of the Biosustain group
+# Workflow to check if project meets the code quality standards of the Biosustain group
 
 on:
   push:
